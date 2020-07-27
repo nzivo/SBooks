@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">S Books</string>
+    <string name="satima">Satima</string>
+    <string name="library">Library</string>
+    <string name="home">Home</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_user">New User? Sign Up Here</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
 </resources>
