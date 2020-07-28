@@ -6,8 +6,18 @@
     <string name="sign_in">Sign In</string>
     <string name="sign_in_to_continue">Sign in to continue</string>
     <string name="sign_up">Sign Up</string>
+    <string name="sign_up_to_access_library">Sign up to access the library</string>
+    <string name="agreed_terms_and_conditions">By signing up you agree to our Terms and Conditions</string>
     <string name="forgot_password">Forgot Password?</string>
+    <string name="existing_user">Already have an account? Sign In</string>
     <string name="new_user">New User? Sign Up Here</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+
+    <string name="your_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="occupation">Occupation</string>
+    <string name="institution">Institution</string>
+
 </resources>
