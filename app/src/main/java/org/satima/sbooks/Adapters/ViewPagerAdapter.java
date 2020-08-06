@@ -14,6 +14,7 @@ import androidx.viewpager.widget.PagerAdapter;
 import org.satima.sbooks.R;
 
 public class ViewPagerAdapter extends PagerAdapter {
+
     private Context context;
     private LayoutInflater inflater;
 
@@ -22,9 +23,9 @@ public class ViewPagerAdapter extends PagerAdapter {
     }
 
     private int images[] = {
-            R.drawable.ic_launcher,
-            R.drawable.ic_launcher,
-            R.drawable.ic_launcher,
+            R.drawable.p2,
+            R.drawable.p1,
+            R.drawable.p3,
     };
 
     private String titles[] ={
