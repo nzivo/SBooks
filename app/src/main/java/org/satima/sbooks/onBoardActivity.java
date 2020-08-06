@@ -25,6 +25,7 @@ public class onBoardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_on_board);
+        init();
     }
 
     private void init() {
@@ -42,7 +43,7 @@ public class onBoardActivity extends AppCompatActivity {
                 viewPager.setCurrentItem(viewPager.getCurrentItem()+1);
             }
             else{
-                startActivity(new Intent(onBoardActivity.this, LoginActivity.class));
+                startActivity(new Intent(onBoardActivity.this, AuthActivity.class));
                 finish();
             }
         });
@@ -65,7 +66,7 @@ public class onBoardActivity extends AppCompatActivity {
         }
 
         if (dots.length > 0){
-            dots[position].setTextColor(getResources().getColor(R.color.colorAccent));
+            dots[position].setTextColor(getResources().getColor(R.color.colorPrimary));
         }
     }
 

@@ -11,8 +11,6 @@ import android.view.WindowManager;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static int SPLASH_SCREEN = 1500;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             public void run(){
                 isFirstTime();
             }
-        }, SPLASH_SCREEN);
+        }, 1500);
 
     }
 
@@ -41,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             finish();
         }
         else{
-            startActivity(new Intent(MainActivity.this, LoginActivity.class));
+            startActivity(new Intent(MainActivity.this, AuthActivity.class));
             finish();
         }
     }
