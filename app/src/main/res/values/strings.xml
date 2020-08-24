@@ -1,11 +1,14 @@
 <resources>
+    
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    
     <string name="app_name">S Books</string>
     <string name="satima">Satima</string>
-    <string name="library">Library</string>
-    <string name="home">Home</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_in_to_continue">Sign in to continue</string>
     <string name="sign_up">Sign Up</string>
+    <string name="sign_out">Sign Out</string>
     <string name="sign_up_to_access_library">Sign up to access the library</string>
     <string name="agreed_terms_and_conditions">By signing up you agree to our Terms and Conditions</string>
     <string name="forgot_password">Forgot Password?</string>
@@ -27,5 +30,14 @@
     <string name="complete_profile">Complete Profile</string>
     <string name="select_photo">Select Photo</string>
     <string name="btn_continue">Continue</string>
+
+    <string name="my_profile">My Profile</string>
+    <string name="home">Home</string>
+    <string name="library">Library</string>
+    <string name="my_books">My Books</string>
+    <string name="bag">BackPack</string>
+    <string name="settings">Settings</string>
+    <string name="contact">Contact Us</string>
+    <string name="extra">Extra</string>
 
 </resources>
