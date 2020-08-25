@@ -16,7 +16,7 @@
             android:icon="@drawable/icons_books_black"/>
 
         <item android:id="@+id/nav_bag"
-            android:title="@string/home"
+            android:title="@string/bag"
             android:icon="@drawable/icons_backpack_black"/>
     </group>
 

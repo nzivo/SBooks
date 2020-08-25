@@ -20,6 +20,7 @@
 
     <string name="next">Next</string>
     <string name="skip">Skip</string>
+    <string name="view_all">View All</string>
 
     <string name="your_name">Full Name</string>
     <string name="phone_number">Phone Number</string>
@@ -34,10 +35,15 @@
     <string name="my_profile">My Profile</string>
     <string name="home">Home</string>
     <string name="library">Library</string>
+    <string name="book_categories">Book Categories</string>
     <string name="my_books">My Books</string>
-    <string name="bag">BackPack</string>
+    <string name="discover_books">Discover Books</string>
+    <string name="discover_books_description">Find the latest added books in our library and many other more</string>
+    <string name="bag">My BackPack</string>
     <string name="settings">Settings</string>
     <string name="contact">Contact Us</string>
     <string name="extra">Extra</string>
+    <string name="search">Search</string>
+    <string name="search_book">Looking for a book</string>
 
 </resources>
